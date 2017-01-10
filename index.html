@@ -5,9 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
-	<script rel="stylesheet" type="text/javascript" href="assets/javascript/game.js"></script>
-	
-	
+		
 </head>
 <body>
 
@@ -22,7 +20,7 @@
 		<p>Each time when the game starts, the game will change the values of each crystal.</p>
 	</div>
 
-	<div class="randomNumber">
+	<div id="randomNumber">
 	</div>
 
 	<div class="totals">
@@ -31,15 +29,16 @@
 	</div>
 
 	<div class="nutSack">
-		<img class="nut" src="assets/images/hazelnut.jpg" alt="Hazelnut">
+		<!-- <img class="nut" src="assets/images/hazelnut.jpg" alt="Hazelnut">
 		<img class="nut" src="assets/images/peanuts.jpg" alt="Peanuts">
 		<img class="nut" src="assets/images/pecan.jpg" alt="Pecan">
-		<img class="nut" src="assets/images/walnut.jpg" alt="Walnut">
+		<img class="nut" src="assets/images/walnut.jpg" alt="Walnut"> -->
 	</div>
 
 	<div class="score">
-		<p>Your total score is: <br> <span class="total-score"></span></p>
+		<p>Your total score is: <br> <span id="total-score"></span></p>
 	</div>
 
+<script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 </html>

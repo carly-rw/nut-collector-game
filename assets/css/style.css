@@ -19,7 +19,7 @@ body {
 	padding: 5px;
 }
 
-.randomNumber {
+#randomNumber {
 	width: 80px;
 	height: 50px;
 	background-color: orange;
