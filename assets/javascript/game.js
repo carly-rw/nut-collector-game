@@ -8,6 +8,8 @@ $("document").ready(function(){
 	var randomNumber;
 
 	var newNutGame = function() {
+		$(".nutSack").empty();
+		$(".total-score").empty();
 		userScore = 0; //resets the user's score to 0
 		randomNumber = (Math.floor(Math.random() * 120) + 19); //recreates the randomNumber for the user
 		console.log(userScore);
@@ -31,20 +33,22 @@ $("document").ready(function(){
 		var nutso = $(this).attr("value");
 		userScore += parseFloat(nutso);
 		console.log(userScore);
-	});	
+		$("#total-score").html(userScore);
 
-
-	// if (userScore === randomNumber) {
-	// 	wins++;
-	// 	$(".wins").text(wins);
-	// 	//newNutGame();
-	// }
+		if (userScore === randomNumber) {
+		wins++;
+		$(".wins").html(wins);
+		alert("Congrats! You won!");
+		newNutGame();
+		}
 		
-	// if (userScore > randomNumber) {
-	// 	losses++;
-	// 	$(".losses").text(losses);
-	// 	//newNutGame();
-	// }
+		if (userScore > randomNumber) {
+		losses++;
+		alert("Sorry! You lost! Your total score was " + userScore);
+		$(".losses").html(losses);
+		newNutGame();
+		}
+	});	
 
 newNutGame();
 
