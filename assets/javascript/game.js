@@ -3,7 +3,7 @@ $("document").ready(function(){
 
 	var wins = 0;
 	var losses = 0;
-	var nutArray = ["assets/images/hazelnut.jpg", "assets/images/peanuts.jpg", "assets/images/pecan.jpg", "assets/images/walnut.jpg"];
+	var nutArray = ["assets/images/almonds.jpg", "assets/images/cashews.jpg", "assets/images/hazelnut.jpg", "assets/images/walnuts.jpg"];
 	var userScore;
 	var randomNumber;
 
