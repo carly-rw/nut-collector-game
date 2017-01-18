@@ -15,7 +15,7 @@ $("document").ready(function(){
 		console.log(userScore);
 		console.log(randomNumber);
 
-		$("#randomNumber").html(randomNumber); //shows the score the user must try to obtain
+		$(".blink").html(randomNumber); //shows the score the user must try to obtain
 		$("#total-score").html(userScore);
 
 		for (var i = 0; i < nutArray.length; i++) { //loops through and creates the images with values
