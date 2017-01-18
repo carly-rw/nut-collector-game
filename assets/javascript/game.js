@@ -33,7 +33,7 @@ $("document").ready(function(){
 		var nutso = $(this).attr("value");
 		userScore += parseFloat(nutso);
 		console.log(userScore);
-		$("#total-score").html(userScore);
+		$(".score").html(userScore);
 
 		if (userScore === randomNumber) {
 		wins++;

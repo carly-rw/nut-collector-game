@@ -5,10 +5,11 @@ body {
 .title {
 	float: left;
 	width: 700px;
-	height: 40px;
+	height: 200px;
 	font-size: 55px;
 	background-color: white;
 	margin: 10px;
+	margin-top: 20px;
 	margin-left: 25px;
 	padding: 5px;
 	font-family: 'Bungee Shade', cursive;
@@ -21,40 +22,15 @@ body {
 	background-color: white;
 	font-size: 20px;
 	margin: 10px;
+	margin-top: 20px;
 	padding: 5px;
 	font-family: 'Reenie Beanie', cursive;
-}
-
-#randomNumber {
-	clear: both;
-	float: right;
-	width: 187px;
-	height: 100px;
-	background-color: white;
-	padding: 20px;
-	margin: 10px;
-	margin-left: 5px;
-	margin-top: 20px;
-	margin-bottom: 0px;
-	font-size: 80px;
-	font-family: 'Bungee Shade', cursive;
-}
-
-.totals {
-	float: left;
-	background-color: white;
-	width: 75px;
-	height: 80px;
-	margin: 10px;
-	padding: 5px;
-	font-size: 30px;
-	font-family: 'Bungee Shade', cursive;
 }
 
 .nutSack {
 	clear: both;
 	float: left;
-	margin:10px;
+	margin: 10px;
 	height: 200px;
 	width: 100%;
 }
@@ -65,14 +41,44 @@ img {
 	margin: 20px;
 }
 
-.score {
+#randomNumber {
 	clear: both;
-	float: left;
-	width: 80px;
+	float: right;
+	width: 187px;
 	height: 100px;
 	background-color: white;
-	margin:10px;
+	color: red;
+	padding: 5px;
+	margin: 10px;
+	margin-left: 5px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	font-size: 120px;
+	font-family: 'Codystar', cursive;
+}
+
+.totals {
+	float: left;
+	background-color: white;
+	width: 150px;
+	height: 100px;
+	margin: 10px;
+	margin-left: 40px;
+	margin-top: 20px;
 	padding: 5px;
 	font-size: 30px;
-	font-family: 'Bungee Shade', cursive;
+	font-family: 'Monoton', cursive;
+}
+
+.score {
+	float: left;
+	width: 200px;
+	height: 110px;
+	background-color: white;
+	margin: 10px;
+	margin-left: 30px;
+	margin-top: 20px;
+	padding: 5px;
+	font-size: 100px;
+	font-family: 'Nosifer', cursive;
 }
