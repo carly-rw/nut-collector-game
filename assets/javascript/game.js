@@ -25,6 +25,7 @@ $("document").ready(function(){
 			a.attr("value", nutValue);
 			a.addClass("nut");
 			a.attr("src", nutArray[i]);
+			a.attr("alt", "nut image");
 			$(".nutSack").append(a);
 		}
 	}
